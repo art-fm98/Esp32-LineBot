@@ -3,8 +3,8 @@
        $APPID= "artlinebot/"; //enter your appid
      $KEY = "fX4s3T2omDGrpur"; //enter your key
     $SECRET = "ZDm7q8PtBHkU2hm10DNMqe9jU"; //enter your secret
-    $Topic = "NodeMCU1"; 
- $topic="NodeMCU1";
+    $Topic = "Node1"; 
+ $topic="Node1";
       put("https://api.netpie.io/microgear/".$APPID.$Topic."?retain&auth=".$KEY.":".$SECRET,$msg);
  
   }
@@ -46,7 +46,7 @@
       echo $response . "\r\n";
     return $response;
 }
-// $Topic = "NodeMCU1";
- //$lineMsg = "CHECK";
- //getMqttfromlineMsg($Topic,$lineMsg);
+ $Topic = "Node1";
+ $lineMsg = "CHECK";
+ getMqttfromlineMsg($Topic,$lineMsg);
 ?>
