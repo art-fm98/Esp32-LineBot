@@ -46,7 +46,7 @@
       echo $response . "\r\n";
     return $response;
 }
- $Topic = "Node1";
- $lineMsg = "CHECK";
+ //$Topic = "Node1";
+ //$lineMsg = "CHECK";
  getMqttfromlineMsg($Topic,$lineMsg);
 ?>
