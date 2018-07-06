@@ -48,5 +48,5 @@
 }
  //$Topic = "Node1";
  //$lineMsg = "CHECK";
- getMqttfromlineMsg($Topic,$lineMsg);
+ //getMqttfromlineMsg($Topic,$lineMsg);
 ?>
