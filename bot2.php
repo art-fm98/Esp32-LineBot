@@ -1,7 +1,7 @@
 <?php
  
-$strAccessToken = "HAb2zdj0l7kBYZx2427iAdhDTxePryIKHml+62clzTCex3a2hYMc80Ztv7Hvt5Xw2uWa78W12A0BafcwDagfATUhkfEo0vFnvoPkNBmJKlJWqv7YrC3Tzffr5rbgJvUHUOZCIwN+bOirYQJAJ6uQNAdB04t89/1O/w1cDnyilFU=
-";
+$strAccessToken = '9eKp8vy8uS5ZFWy+PAnIqYqZJjifr/k8h1iiRQiNn9zRHIOCwWdbT0CYDjZWJSk72uWa78W12A0BafcwDagfATUhkfEo0vFnvoPkNBmJKlLNIVPr1Hh5/h1eR3v4hapy14agCWtNQybHiL3pApWFrwdB04t89/1O/w1cDnyilFU=
+';
  
 $content = file_get_contents('php://input');
 $arrJson = json_decode($content, true);
