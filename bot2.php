@@ -1,16 +1,16 @@
 <?php
  
-$strAccessToken = 'mQK7nBLMCWfeicgLDujFMWjMSk+LWjm9jJ0SbTy1jM8epXXiBoDaSIrBYKHNWnPu/rPnE4wrY5eyO5X4F/GSnIRPwbqDja9oQvan/QcNXrSBskd2/YRSDL8YBY1CxHT47C5R/6ObGhNnh874wovVjwdB04t89/1O/w1cDnyilFU=
-';
+$strAccessToken = "mQK7nBLMCWfeicgLDujFMWjMSk+LWjm9jJ0SbTy1jM8epXXiBoDaSIrBYKHNWnPu/rPnE4wrY5eyO5X4F/GSnIRPwbqDja9oQvan/QcNXrSBskd2/YRSDL8YBY1CxHT47C5R/6ObGhNnh874wovVjwdB04t89/1O/w1cDnyilFU=
+";
  
 $content = file_get_contents('php://input');
 $arrJson = json_decode($content, true);
  
-$strUrl = 'https://api.line.me/v2/bot/message/reply';
+$strUrl = "https://api.line.me/v2/bot/message/reply";
  
 $arrHeader = array();
-$arrHeader[] = 'Content-Type: application/json';
-$arrHeader[] = 'Authorization: Bearer {$strAccessToken}';
+$arrHeader[] = "Content-Type: application/json";
+$arrHeader[] = "Authorization: Bearer {$strAccessToken}";
  
 if($arrJson['events'][0]['message']['text'] == "สวัสดี"){
   $arrPostData = array();
